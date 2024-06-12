@@ -135,3 +135,94 @@ if(a<b&&a>c){
 }
 console.log(thirten(101,1500,5));
 }
+{
+function fourten (a,b,c){
+    
+if (a < b && a < c) {
+  return `  ${a} soni kichik `;
+} else if (a > b && b < c) {
+  return ` javob  ${b} soni kichik`;
+} else if (b > c && c < a) {
+  return `${c} soni kichik`;
+}else if(a>b&&a>c){
+  
+ return `  ${a} soni katta `;
+} else if(a<b&&b>c) {
+   
+return ` javob  ${b} soni katta`
+} else if(b<c&&c>a){
+    return`${c} soni katta`
+}
+
+
+}
+console.log(fourten(101,1500,5000));
+}
+{
+    function fourten (a,b,c){
+    
+if (a < b && a < c) {
+  return `  ${a} soni kichik `;
+} else if (a > b && b < c) {
+  return ` javob  ${b} soni kichik`;
+} else if (b > c && c < a) {
+  return `${c} soni kichik`;
+}else if(a>b&&a>c){
+  
+ return `  ${a} soni katta `;
+} else if(a<b&&b>c) {
+   
+return ` javob  ${b} soni katta`
+} else if(b<c&&c>a){
+    return`${c} soni katta`
+}
+
+
+}
+console.log(fourten(101,1500,5000));
+}
+{
+    // 14 davomi
+     function fourten(a, b, c) {
+       if (a > b && a > c) {
+         return `  ${a} soni katta `;
+       } else if (a < b && b > c) {
+         return ` javob  ${b} soni katta`;
+       } else if (b < c && c > a) {
+         return `${c} soni katta`;
+       }
+     }
+     console.log(fourten(101, 1500, 5000));
+}
+{
+      function fiften(a, b, c) {
+        
+        if (a > b && a > c) {
+          return `  ${a} soni katta `;
+        } else if (a < b && b > c) {
+          return ` javob  ${b} soni katta`;
+        } else if (b < c && c > a) {
+          return `${c} soni katta`;
+        }else{
+
+        }
+       
+      }
+      console.log(fiften(101, 1500, 5000)); 
+function davomi(a, b, c) {
+  if (a < b && a > c) {
+    return `  ${a} soni ortasi `;
+  } else if (a > b && a < c) {
+    return `  ${a} soni ortasi `;
+  } else if (a > b && b > c) {
+    return ` javob  ${b} soni orta`;
+  } else if (a < b && b < c) {
+    return ` javob  ${b} soni orta`;
+  } else if (b > c && c > a) {
+    return `${c} soni o'rta`;
+  } else if (b < c && c < a) {
+    return `${c} soni o'rta`;
+  }
+}
+console.log(davomi(101, 1500, 5));
+}
