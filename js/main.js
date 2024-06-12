@@ -96,3 +96,42 @@ return ` javob  ${a} soni katta`
 }
 console.log(eleven(1,15));
 }
+{
+function twelve (a,b,c){
+    
+if(a<b&&a<c){
+  
+ return `  ${a} soni kichik `;
+} else if(a>b&&b<c) {
+   
+return ` javob  ${b} soni kichik`
+} else if(b>c&&c<a){
+    return`${c} soni kichik`
+}
+
+
+}
+console.log(twelve(101,15,55));
+}
+{
+function thirten (a,b,c){
+    
+if(a<b&&a>c){
+  
+ return `  ${a} soni ortasi `;
+}else if (a > b && a <c) {
+    return`  ${a} soni ortasi `;
+} else if (a > b && b > c) {
+  return ` javob  ${b} soni orta`;
+} else if (a < b && b < c) {
+    return ` javob  ${b} soni orta`;
+} else if (b > c && c > a) {
+  return `${c} soni o'rta`;
+}else if(b < c && c < a) {
+    return `${c} soni o'rta`;
+}
+
+
+}
+console.log(thirten(101,1500,5));
+}
