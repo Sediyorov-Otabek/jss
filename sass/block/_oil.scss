@@ -1,4 +1,7 @@
 .oil__wrap {
+  img{
+    width: 100%;
+  }
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -46,4 +49,108 @@
       gap: 10px;
     }
   }
+}
+@media (max-width:1000px) {
+  .oil__wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 30px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  .oil__img {
+    display: flex;
+    flex-direction: column;
+    .oil__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      .cards__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+  .oil__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    b {
+      font-size: 38px;
+    }
+    button {
+      width: 280px;
+      height: 70px;
+      background: red;
+      border-radius: 55px;
+      color: aliceblue;
+      font-size: 16px;
+      border: none;
+    }
+    .cost {
+      font-size: 24px;
+    }
+    .oil__icon {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+}
+@media (max-width:935px) {
+  .oil__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  .oil__img {
+    display: flex;
+    flex-direction: column;
+    .oil__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      .cards__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+  .oil__desc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    b {
+      font-size: 38px;
+      text-align: center;
+    }
+    button {
+      width: 280px;
+      height: 70px;
+      background: red;
+      border-radius: 55px;
+      color: aliceblue;
+      font-size: 16px;
+      border: none;
+    }
+    .cost {
+      font-size: 24px;
+    }
+    .oil__icon {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
 }

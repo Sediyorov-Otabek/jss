@@ -18,3 +18,28 @@
   justify-content: space-between;
   padding-top: 30px;
 }
+@media (max-width:730px) {
+  .footer__wrap {
+  padding: 30px;
+  display:flex ;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  .footer__collect {
+    ul {
+      line-height: 1.5;
+    }
+  }
+  .footer__icon{
+    display: flex;
+    gap: 9px;
+  }
+}
+.footer__end{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+}
