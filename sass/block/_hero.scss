@@ -1,0 +1,19 @@
+.hero{
+    background: gainsboro;
+    width: 100%;
+    .hero__wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .hero__collect{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 10px 0;
+            gap: 10px;
+        }
+    }
+}

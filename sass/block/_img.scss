@@ -1,0 +1,30 @@
+.img__wrap {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 295px;
+
+  background: url(../../assets/Group\ 56.png);
+  b {
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+  }
+  button{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: aliceblue;
+    border: none;
+  }
+}
+.img__end{
+  
+  img{
+    width: 100%;
+  }
+}

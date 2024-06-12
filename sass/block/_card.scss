@@ -1,0 +1,17 @@
+.card__wrap{
+    display: flex;
+    align-items: center;
+    .btn{
+        width: 32%;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        p{
+            text-align: center;
+        }
+        border: 1px solid gainsboro;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+}

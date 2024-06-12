@@ -1,0 +1,16 @@
+.desc__wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 50px;
+  .desc__start {
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    gap: 30px;
+    .start__in {
+      line-height: 1.8;
+    }
+  }
+}
